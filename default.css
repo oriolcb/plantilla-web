@@ -423,3 +423,9 @@
 		color: #8dc63f;
 		cursor: pointer;
 	}
+
+	/* Canvi de color dels botons clicables al passar el ratolí per sobre */
+	.button:hover {
+		background: #2DAAE4;
+		color: #FFF;
+	}

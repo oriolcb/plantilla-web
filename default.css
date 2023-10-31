@@ -417,3 +417,9 @@
 		transform: rotate(360deg);
 		transition: transform 1s;
 	}
+
+	/* Canvi de color al passar el ratolí */
+	.image:hover span {
+		color: #8dc63f;
+		cursor: pointer;
+	}

@@ -401,3 +401,19 @@
 		left: -150px;
 		animation: moveCar 5s linear infinite;
 	}
+
+	@keyframes moveCar {
+		0% {
+			left: -600px;
+		}
+
+		100% {
+			left: 100%;
+		}
+	}
+
+	/* Girar les imatges al passar el ratolí */
+	.image img:hover {
+		transform: rotate(360deg);
+		transition: transform 1s;
+	}

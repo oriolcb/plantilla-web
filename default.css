@@ -1,10 +1,9 @@
-	html, body
-	{
+	html,
+	body {
 		height: 100%;
 	}
-	
-	body
-	{
+
+	body {
 		margin: 0px;
 		padding: 0px;
 		background: #FFF;
@@ -13,134 +12,118 @@
 		font-weight: 300;
 		color: #000000;
 	}
-	
-	
-	h1, h2, h3
-	{
+
+
+	h1,
+	h2,
+	h3 {
 		margin: 0;
 		padding: 0;
 		color: #8dc63f;
 	}
-	
-	p, ol, ul
-	{
+
+	p,
+	ol,
+	ul {
 		margin-top: 0;
 	}
-	
-	ol, ul
-	{
+
+	ol,
+	ul {
 		padding: 0;
 		list-style: none;
 	}
-	
-	p
-	{
+
+	p {
 		line-height: 180%;
 	}
-	
-	strong
-	{
+
+	strong {
 		color: #8dc63f;
 	}
-	
-	a
-	{
+
+	a {
 		color: #8dc63f;
 	}
-	
-	a:hover
-	{
+
+	a:hover {
 		text-decoration: none;
 	}
-	
-	.container
-	{
+
+	.container {
 		overflow: hidden;
 		margin: 0em auto;
 		width: 1200px;
 	}
-	
-/*********************************************************************************/
-/* Image Style                                                                   */
-/*********************************************************************************/
 
-	.image
-	{
+	/*********************************************************************************/
+	/* Image Style                                                                   */
+	/*********************************************************************************/
+
+	.image {
 		display: inline-block;
 	}
-	
-	.image img
-	{
+
+	.image img {
 		display: block;
 		width: 100%;
 	}
-	
-	.image-full
-	{
+
+	.image-full {
 		display: block;
 		width: 100%;
 		margin: 0;
 	}
-	
-	.image-left
-	{
+
+	.image-left {
 		float: left;
 		margin: 0 2em 2em 0;
 	}
-	
-	.image-centered
-	{
+
+	.image-centered {
 		display: block;
 		margin: 0 0 2em 0;
 	}
-	
-	.image-centered img
-	{
+
+	.image-centered img {
 		margin: 0 auto;
 		width: auto;
 	}
 
-/*********************************************************************************/
-/* List Styles                                                                   */
-/*********************************************************************************/
+	/*********************************************************************************/
+	/* List Styles                                                                   */
+	/*********************************************************************************/
 
-	ul.style1
-	{
-	}
+	ul.style1 {}
 
 
-/*********************************************************************************/
-/* Social Icon Styles                                                            */
-/*********************************************************************************/
+	/*********************************************************************************/
+	/* Social Icon Styles                                                            */
+	/*********************************************************************************/
 
-	ul.contact
-	{
+	ul.contact {
 		margin: 0;
 		padding: 2em 0em 0em 0em;
 		list-style: none;
 	}
-	
-	ul.contact li
-	{
+
+	ul.contact li {
 		display: inline-block;
 		padding: 0em 0.30em;
 		font-size: 1em;
 	}
-	
-	ul.contact li span
-	{
+
+	ul.contact li span {
 		display: none;
 		margin: 0;
 		padding: 0;
 	}
-	
-	ul.contact li a
-	{
+
+	ul.contact li a {
 		color: #FFF;
 	}
-	
-	ul.contact li a:before
-	{
+
+	ul.contact li a:before {
 		display: inline-block;
 		background: #3f3f3f;
 		width: 40px;
@@ -150,19 +133,32 @@
 		text-align: center;
 		color: #FFFFFF;
 	}
-	
-	ul.contact li a.icon-twitter:before { background: #2DAAE4; }
-	ul.contact li a.icon-facebook:before { background: #39599F; }
-	ul.contact li a.icon-dribbble:before { background: #C4376B;	}
-	ul.contact li a.icon-tumblr:before { background: #31516A; }
-	ul.contact li a.icon-rss:before { background: #F2600B; }
 
-/*********************************************************************************/
-/* Button Style                                                                  */
-/*********************************************************************************/
+	ul.contact li a.icon-twitter:before {
+		background: #2DAAE4;
+	}
 
-	.button
-	{
+	ul.contact li a.icon-facebook:before {
+		background: #39599F;
+	}
+
+	ul.contact li a.icon-dribbble:before {
+		background: #C4376B;
+	}
+
+	ul.contact li a.icon-tumblr:before {
+		background: #31516A;
+	}
+
+	ul.contact li a.icon-rss:before {
+		background: #F2600B;
+	}
+
+	/*********************************************************************************/
+	/* Button Style                                                                  */
+	/*********************************************************************************/
+
+	.button {
 		display: inline-block;
 		margin-top: 2em;
 		padding: 1em 2em 1em 2em;
@@ -174,27 +170,23 @@
 		font-size: 0.90em;
 		color: #FFF;
 	}
-	
-	.button:before
-	{
-	}
-		
-/*********************************************************************************/
-/* 3-column                                                                      */
-/*********************************************************************************/
+
+	.button:before {}
+
+	/*********************************************************************************/
+	/* 3-column                                                                      */
+	/*********************************************************************************/
 
 	.boxA,
 	.boxB,
-	.boxC
-	{
+	.boxC {
 		width: 384px;
 		text-align: center;
 	}
 
 	.boxA h2,
 	.boxB h2,
-	.boxC h2
-	{
+	.boxC h2 {
 		margin-bottom: 1em;
 		font-weight: 600;
 		font-size: 1.6em;
@@ -202,224 +194,193 @@
 
 	.boxA p,
 	.boxB p,
-	.boxC p
-	{
+	.boxC p {
 		padding: 0em 1.5em;
 	}
 
 	.boxA,
-	.boxB
-	{
+	.boxB {
 		float: left;
 		margin-right: 20px;
 	}
-	
-	.boxC
-	{
+
+	.boxC {
 		float: right;
 	}
 
-/*********************************************************************************/
-/* Header                                                                        */
-/*********************************************************************************/
+	/*********************************************************************************/
+	/* Header                                                                        */
+	/*********************************************************************************/
 
-	#header
-	{
+	#header {
 		position: relative;
 		padding: 5em 0em;
 	}
 
-/*********************************************************************************/
-/* Logo                                                                          */
-/*********************************************************************************/
+	/*********************************************************************************/
+	/* Logo                                                                          */
+	/*********************************************************************************/
 
-	#logo
-	{
+	#logo {
 		position: absolute;
 		top: 4em;
 		left: 0;
 	}
-	
-	#logo h1
-	{
-	}
-	
-	#logo a
-	{
+
+	#logo h1 {}
+
+	#logo a {
 		text-decoration: none;
 		color: #8dc63f;
 	}
 
-/*********************************************************************************/
-/* Menu                                                                          */
-/*********************************************************************************/
+	/*********************************************************************************/
+	/* Menu                                                                          */
+	/*********************************************************************************/
 
-	#menu
-	{
+	#menu {
 		position: absolute;
 		top: 5em;
 		right: 0;
 	}
-	
-	#menu ul
-	{
+
+	#menu ul {
 		display: inline-block;
 	}
-	
-	#menu li
-	{
+
+	#menu li {
 		display: block;
 		float: left;
 		text-align: center;
 	}
-	
-		#menu li:before
-		{
-			content: "//";
-			padding: 1em 1.5em;
-			font-weight: 700;
-			color: rgba(0,0,0,.6);
-		}
-	
-	#menu li a, #menu li span
-	{
+
+	#menu li:before {
+		content: "//";
+		padding: 1em 1.5em;
+		font-weight: 700;
+		color: rgba(0, 0, 0, .6);
+	}
+
+	#menu li a,
+	#menu li span {
 		text-decoration: none;
 		text-transform: uppercase;
 		font-weight: 600;
 		font-size: 1em;
-		color: rgba(0,0,0,.4);
-	}
-	
-	#menu li:hover a, #menu li.active a, #menu li.active span
-	{
-		color: rgba(0,0,0,.6);
-	}
-	
-	#menu .current_page_item a
-	{
-		color: rgba(0,0,0,.8);
-	}
-	
-	#menu .icon
-	{
+		color: rgba(0, 0, 0, .4);
 	}
 
-/*********************************************************************************/
-/* Banner                                                                        */
-/*********************************************************************************/
+	#menu li:hover a,
+	#menu li.active a,
+	#menu li.active span {
+		color: rgba(0, 0, 0, .6);
+	}
 
-	#banner
-	{
+	#menu .current_page_item a {
+		color: rgba(0, 0, 0, .8);
+	}
+
+	#menu .icon {}
+
+	/*********************************************************************************/
+	/* Banner                                                                        */
+	/*********************************************************************************/
+
+	#banner {
 		overflow: hidden;
 		padding: 15em 0em;
 		background: url(images/banner.jpg) no-repeat center;
 		background-size: cover;
-		border-top: 1px solid rgba(0,0,0,0.08);
+		border-top: 1px solid rgba(0, 0, 0, 0.08);
 	}
 
-/*********************************************************************************/
-/* Page                                                                          */
-/*********************************************************************************/
+	/*********************************************************************************/
+	/* Page                                                                          */
+	/*********************************************************************************/
 
-	#page
-	{
+	#page {
 		position: relative;
 		overflow: hidden;
 		padding: 8em 0em;
 	}
 
-/*********************************************************************************/
-/* Content                                                                       */
-/*********************************************************************************/
+	/*********************************************************************************/
+	/* Content                                                                       */
+	/*********************************************************************************/
 
-	#content
-	{
-	}
+	#content {}
 
-/*********************************************************************************/
-/* Sidebar                                                                       */
-/*********************************************************************************/
+	/*********************************************************************************/
+	/* Sidebar                                                                       */
+	/*********************************************************************************/
 
-	#sidebar
-	{
-	}
+	#sidebar {}
 
-/*********************************************************************************/
-/* Footer                                                                        */
-/*********************************************************************************/
+	/*********************************************************************************/
+	/* Footer                                                                        */
+	/*********************************************************************************/
 
-	#footer
-	{
-	}
+	#footer {}
 
-/*********************************************************************************/
-/* Copyright                                                                     */
-/*********************************************************************************/
+	/*********************************************************************************/
+	/* Copyright                                                                     */
+	/*********************************************************************************/
 
-	#copyright
-	{
+	#copyright {
 		overflow: hidden;
 		padding: 5em 0em;
-		border-top: 1px solid rgba(0,0,0,0.1);
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
 	}
-	
-	#copyright p
-	{
+
+	#copyright p {
 		letter-spacing: 0.20em;
 		text-align: center;
 		text-transform: uppercase;
 		font-size: 0.80em;
-		color: rgba(0,0,0,0.6);
+		color: rgba(0, 0, 0, 0.6);
 	}
-	
-	#copyright a
-	{
+
+	#copyright a {
 		text-decoration: none;
-		color: rgba(0,0,0,1);
+		color: rgba(0, 0, 0, 1);
 	}
 
-/*********************************************************************************/
-/* Featured                                                                      */
-/*********************************************************************************/
+	/*********************************************************************************/
+	/* Featured                                                                      */
+	/*********************************************************************************/
 
-	#featured
-	{
+	#featured {
 		overflow: hidden;
 		padding: 5em 0em;
-		border-top: 1px solid rgba(0,0,0,0.1);
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
 	}
-	
-	#featured .align-left
-	{
+
+	#featured .align-left {
 		float: left;
 		width: 384px;
 		padding-top: 1em;
 		text-align: center;
 	}
-	
-	#featured .fa
-	{
+
+	#featured .fa {
 		font-size: 14em;
 		color: #8dc63f;
 	}
 
-	#featured .align-right
-	{
+	#featured .align-right {
 		float: right;
 		width: 792px;
 		font-size: 1.4em;
 	}
 
 
-	.box
-	{
+	.box {
 		margin-bottom: 2em;
 		padding-bottom: 2em;
-		border-bottom: 1px solid rgba(0,0,0,.1);
+		border-bottom: 1px solid rgba(0, 0, 0, .1);
 	}
-	
-	.box span
-	{
+
+	.box span {
 		margin: 0;
 		padding: 1em 1em;
 		background: #8dc63f;
@@ -431,4 +392,12 @@
 		font-size: 1.2em;
 		color: #FFF;
 	}
-/*a*/
+
+	/* Animació del cotxe */
+	#banner img {
+		width: 500px;
+		position: absolute;
+		top: 522px;
+		left: -150px;
+		animation: moveCar 5s linear infinite;
+	}
